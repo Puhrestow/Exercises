@@ -1,3 +1,5 @@
+/*header*/	
+
 .blogheader {
     height: 300px;
     background-image:url("http://www.celebs101.com/wallpapers/Cassie_Ventura/241190/Cassie_Ventura_Wallpaper.jpg");
@@ -6,9 +8,39 @@
     margin: initial;
 }
 
+.headertext {
+	padding: 25px 0;
+	text-align: center;
+	font-size: 5em;
+	font-family: Lato;
+	color:darkorange;
+}
+
+
+
+/*BLOG SECTION*/
+
+.blogtitle {
+	font-family: Lato;
+	text-align: center;
+	text-decoration: underline;
+}
+
+
+
+/*footer*/
+
 .footer {
-    height: 75px;
-    background-color: silver;
+    height: 76px;
+    background-color: silver;	
     width: auto;
     margin: initial;
+}
+
+.footertext {
+	padding: 25px 0; 
+	text-align: left;
+	font-size: 1em;
+	font-family: Lato;
+	color:darkorange;
 }
